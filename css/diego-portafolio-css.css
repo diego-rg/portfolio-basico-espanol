@@ -1,0 +1,208 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+
+header {
+    color: #445ea0;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 5rem;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 7% 7% 4% 7%;
+}
+
+.pHeader {
+    color: #5dc1d8;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: white;
+}
+
+.imgPc {
+    width: 20%;
+    height: auto;
+}
+
+.imgLogo {
+    width: 10%;
+    height: auto;
+}
+
+.logoHeaderTop {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.logoHeaderBottom {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+main {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.sectionInfo {
+    padding: 5%;
+    margin: auto;
+    width: 50vw;
+    height: auto;
+}
+
+.imgGuy {
+    width: 20%;
+    height: auto;
+}
+
+h2 {
+    color: #5dc1d8;
+    font-size: 2.5rem;
+}
+
+hr {
+    border: 5px dotted #445ea0;
+    width: 5%;
+    border-bottom: none;
+}
+
+.imgLeft {
+    float: left;
+    padding-right: 5%;
+}
+
+.imgRight {
+    float: right;
+    padding-left: 5%;
+}
+
+.pSkills {
+    text-align: justify;
+}
+
+.ulPortfolio {
+    padding: 0;
+    text-align: justify;
+    list-style-type: none;
+}
+
+.ulPortfolio a {
+    text-decoration: none;
+    color: #445ea0;
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+    color: #445ea0;
+    font-size: 1.2rem;
+}
+
+.buttonEmail {
+    padding: 1.5%;
+    margin: 5%;
+    border-radius: 5%;
+    border: none;
+    background-color: #5dc1d8;
+}
+
+.aEmail{
+    font-size: 2rem;
+}
+
+.buttonEmail:hover {
+    background-color: #445ea0;
+    transform: scale(1.2);
+}
+
+.aEmail {
+    text-decoration: none;
+    color: white;
+}
+
+.aEmail:hover {
+    background-color: #445ea0;
+}
+
+.imgContact {
+    margin: 5%
+}
+
+.imgContact:hover {
+    transform: scale(1.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+.divContact {
+    display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        margin: 2% auto;
+        font-size: 1.7rem;
+    }
+    .sectionInfo {
+        padding: 5%;
+        margin: auto;
+        width: 80vw;
+        height: auto;
+    }
+    .pHeader {
+        font-size: 0.6rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    ul {
+        font-size: 0.8rem;
+    }
+    .imgGuy {
+        display: none;
+    }
+    .mainAboutMe p {
+        text-align: justify;
+    }
+    footer {
+       max-height: 5vh;
+    }
+    .aEmail{
+        font-size: 1.2rem;
+    }
+    hr {
+        border: 1px dotted #445ea0;
+    }
+    .imgLeft {
+        display: none;
+    }
+    .imgRight {
+        display: none;
+    }
+}
